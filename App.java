@@ -1,5 +1,6 @@
 import Lib.*;
 import Lib.Discount.*;
+import Lib.Discount.ConcreteStrategies.*;
 
 public class App{
 

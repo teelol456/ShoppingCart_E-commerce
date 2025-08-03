@@ -34,7 +34,7 @@ public final class Product{
     }
     public String getProductId() { return productId;}
     public String getProductName() { return productName;}
-    public double getPice() { return price;}
+    public double getPrice() { return price;}
     /*
      * 
      * 
