@@ -4,8 +4,6 @@ public class CartItem {
     private final Product product;
     private int quantity;
 
-
-
     private void checkRep(){
         if (product == null) throw new RuntimeException("RI violate: product error");
         if (quantity < 0) throw new RuntimeException("RI violate: quantity error");
