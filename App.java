@@ -1,5 +1,4 @@
 import Lib.*;
-import Lib.Discount.*;
 import Lib.Discount.ConcreteStrategies.*;
 
 public class App{
@@ -50,7 +49,7 @@ public class App{
         check("New cart should be empty", cart.getItemCount() == 0 && cart.getTotalPrice() == 0.0);
 
         cart.addItem("P001", 3); // Apple x3
-        check("Add new item correctly", cart.getItemCount() == 1 && cart.getTotalPrice() == 20.0); // BOGO: pay for 2
+        check("Add new item correctly", cart.getItemCount() == 1 && cart.getTotalPrice() == 20.0); // BOGO: pay for 2 
 
         cart.addItem("P001", 2); // Apple x3+2=5
         check("Add existing item increases quantity", cart.getItemCount() == 1 && cart.getTotalPrice() == 30.0); // BOGO: pay for 3
